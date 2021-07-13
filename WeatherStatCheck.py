@@ -4,7 +4,7 @@ from pyowm.utils import timestamps
 
 #You have to write your API from openweathermap.org
 
-owm = OWM('25dfe919dbcf7ebf8e8e26dbc08e7c96')
+owm = OWM('Your own API')
 mgr = owm.weather_manager()
 
 place = input("Your city ")
